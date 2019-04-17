@@ -1,5 +1,6 @@
 def my_each(array)
   array.map do |i|
-    yield
-  
+    yield(array[i])
+      i
+  end
 end
