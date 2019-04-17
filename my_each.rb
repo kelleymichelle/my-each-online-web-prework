@@ -5,6 +5,7 @@ def my_each(array)
     array.collect do |i|
       yield(i)
        i
-    end
+    end    
+  end
       array
 end
