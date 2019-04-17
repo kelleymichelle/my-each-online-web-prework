@@ -6,5 +6,5 @@ def my_each(array)
       counter += 1
   
   end
-   
+   array
 end
